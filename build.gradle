@@ -11,5 +11,14 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    springCoreVersion = '4.2.4.RELEASE'
+    springWebVersion = '4.2.4.RELEASE'
+    springWebMvcVersion = '4.2.4.RELEASE'
+}
+
 dependencies {
+    compile group: 'org.springframework', name: 'spring-core', version: springCoreVersion
+    compile group: 'org.springframework', name: 'spring-web', version: springWebVersion
+    compile group: 'org.springframework', name: 'spring-webmvc', version: springWebMvcVersion
 }
