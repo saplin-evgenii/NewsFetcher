@@ -19,6 +19,7 @@ ext {
     springDataMongoVersion = '1.8.2.RELEASE'
     junitVersion = '4.11'
     commonsLangVersion = '2.6'
+    apacheCommonsConfigurationVersion = '1.10'
 }
 
 dependencies {
@@ -26,6 +27,7 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-web', version: springWebVersion
     compile group: 'org.springframework', name: 'spring-webmvc', version: springWebMvcVersion
     compile group: 'org.springframework.data', name: 'spring-data-mongodb', version: springDataMongoVersion
+    compile group: 'commons-configuration', name: 'commons-configuration', version: apacheCommonsConfigurationVersion
     testCompile group: 'org.springframework', name: 'spring-test', version: springTestVersion
     testCompile group: 'junit', name: 'junit', version: junitVersion
     testCompile group: 'commons-lang', name: 'commons-lang', version: commonsLangVersion
