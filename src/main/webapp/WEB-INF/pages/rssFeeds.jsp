@@ -1,9 +1,10 @@
 <%--
-  Starting page.
+  CRUD operations page for RSS feeds
   User: Eugene
   Date: 02.02.2016
   Time: 13:11
 --%>
+<!DOCTYPE html>
 <%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
