@@ -1,8 +1,9 @@
 package org.seuge.newsfetcher.entities;
 
+import org.bson.types.ObjectId;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import java.net.URL;
 import java.util.List;
 
 /**
@@ -12,6 +13,12 @@ import java.util.List;
  */
 @Document(collection = "feeds")
 public class Feed {
+
+    /**
+     * Unique feed id
+     */
+    @Id
+    private ObjectId id;
 
     /**
      * Name of the feed as it is defined in the feed
@@ -26,12 +33,20 @@ public class Feed {
     /**
      * URL which the feed is accessible on
      */
-    private URL url;
+    private String url; //TODO: change to java.net.URL type
 
     /**
      * Items that form the feed
      */
     private List<FeedItem> items;
+
+    public ObjectId getId() {
+        return id;
+    }
+
+    public void setId(ObjectId id) {
+        this.id = id;
+    }
 
     public String getOriginalName() {
         return originalName;
@@ -49,11 +64,11 @@ public class Feed {
         this.shortName = shortName;
     }
 
-    public URL getUrl() {
+    public String getUrl() {
         return url;
     }
 
-    public void setUrl(final URL url) {
+    public void setUrl(final String url) {
         this.url = url;
     }
 
