@@ -21,7 +21,30 @@ public class DefaultRssFeedServiceImpl implements RssFeedService {
     private RssFeedRepo<RssFeed> rssFeedRepo;
 
     @Override
+    public void create(RssFeed newRssFeed) {
+        rssFeedRepo.save(newRssFeed);
+    }
+
+    @Override
+    public RssFeed get(String originalName) {
+        return rssFeedRepo.findByOriginalName(originalName);
+    }
+
+    @Override
     public List<RssFeed> getAll() {
         return IterableUtils.toList(rssFeedRepo.findAll());
+    }
+
+    @Override
+    public void update(RssFeed newRssFeed) {
+        final RssFeed rssFeed = rssFeedRepo.findByOriginalName(newRssFeed.getOriginalName());
+        rssFeed.setShortName(newRssFeed.getShortName());
+        rssFeed.setUrl(newRssFeed.getUrl());
+        rssFeedRepo.save(rssFeed);
+    }
+
+    @Override
+    public void delete(String originalName) {
+        rssFeedRepo.deleteByOriginalName(originalName);
     }
 }
