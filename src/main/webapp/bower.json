@@ -1,0 +1,24 @@
+{
+  "name": "NewsFetcher",
+  "authors": [
+    "Evgenii Saplin <evgenii.saplin@vistar.su>"
+  ],
+  "description": "",
+  "main": "WEB-INF/pages/index.jsp",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "jquery": "^2.2.0",
+    "bootstrap": "^3.3.6"
+  }
+}
