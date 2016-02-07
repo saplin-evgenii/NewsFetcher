@@ -34,7 +34,7 @@ public class FeedItem implements Serializable {
     }
 
     @PersistenceConstructor
-    public FeedItem(final Long id, final String title, final String link, final String description) {
+    public FeedItem(final Long id, final String title, final String description) {
         this.id = id;
         this.title = title;
         this.description = description;
