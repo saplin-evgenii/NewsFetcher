@@ -12,7 +12,7 @@ import java.util.List;
  * @since 1.0
  */
 @Document(collection = "feeds")
-public class Feed {
+public class Feed<FeedItemType extends FeedItem> {
 
     /**
      * Unique feed id
@@ -38,7 +38,7 @@ public class Feed {
     /**
      * Items that form the feed
      */
-    private List<FeedItem> items;
+    private List<FeedItemType> items;
 
     public ObjectId getId() {
         return id;
@@ -72,11 +72,11 @@ public class Feed {
         this.url = url;
     }
 
-    public List<FeedItem> getItems() {
+    public List<FeedItemType> getItems() {
         return items;
     }
 
-    public void setItems(final List<FeedItem> items) {
+    public void setItems(final List<FeedItemType> items) {
         this.items = items;
     }
 

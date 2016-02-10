@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<atom:link href="http://www.ixbt.com/export/news.rss" rel="self" type="application/rss+xml" />	<title>iXBT.com: свежие новости всех разделов вместе</title>
+	<link>http://www.ixbt.com/</link>
+	<description>iXBT.com (http://www.ixbt.com) — специализированный российский информационно-аналитический сервер, освещающий вопросы аппаратного обеспечения персональных компьютеров, коммуникаций и серверов, 3D-графики и звука, цифрового фото и видео, Hi-Fi аппаратуры и проекторов, мобильной связи и периферии, игровых приложений и многого другого.</description>
+	<image>
+		<url>http://www.ixbt.com/images/ixbt-logo-new.jpg</url>
+		<title>iXBT.com: свежие новости всех разделов вместе</title>
+		<link>http://www.ixbt.com/</link>
+	</image>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/bitfenix-alchemy-2-0.html</guid>
+		<title>Кабели BitFenix Alchemy 2.0 для блоков питания с модульными кабельными системами комплектуются резиновыми гребенками</title>
+		<link>http://www.ixbt.com/news/2016/02/07/bitfenix-alchemy-2-0.html</link>
+		<description><![CDATA[ 
+			<p>В январе 2013 года компания <a href="http://www.ixbt.com/news/hard/index.shtml?16/45/73" title="BitFenix выпускает боковую стенку с окном для корпусов Prodigy и кабели Alchemy">BitFenix выпустила боковую стенку с окном для корпусов Prodigy и кабели Alchemy</a>, а на этой неделе производитель представил новое поколение этих кабелей для блоков питания с модульными кабельными системами.
+</p><div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/24d.jpg" border="0" width="735" height="735" alt="Кабели Alchemy 2.0 предложены в нескольких комплектах и вариантах цветового оформления"> </div>
+<p>Кабели Alchemy 2.0 имеют индивидуальную оплетку, а их разъемы, как утверждается, рассчитаны на повышенный ток. В кабелях используется многожильный провод сечением 1,3 мм&#178;.
+<p>В комплект включено пять резиновых гребенок (x24) для аккуратной укладки кабелей. По словам производителя, в отличие от пластиковых, такие гребенки не повреждают оплетку. От них можно отрезать кусочки с необходимым числом отверстий.
+</p><div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/24c.jpg" border="0" width="600" height="600" alt="Кабели Alchemy 2.0 предложены в нескольких комплектах и вариантах цветового оформления"> </div>
+<p>Кабели Alchemy 2.0 предложены в нескольких комплектах и вариантах цветового оформления.
+<p>Источник: <a class=small href="https://www.bitfenix.com/global/en/news/show/123,alchemy-2-0-modular-cables/" rel="nofollow">BitFenix</a></p>
+							Теги:
+														<a href="http://www.ixbt.com/tag/bitfenix /" rel="tag">BitFenix </a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/bitfenix-alchemy-2-0.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>accent@ixbt.com (Accent)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 19:42:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/specialisty-renesas-electronics-sozdali-shemu-obrabotki-video-integriruemuju-v-odnokristalnye-sistemy-dlja.html</guid>
+		<title>Специалисты Renesas Electronics создали схему обработки видео, интегрируемую в однокристальные системы для самоуправляемых автомобилей</title>
+		<link>http://www.ixbt.com/news/2016/02/07/specialisty-renesas-electronics-sozdali-shemu-obrabotki-video-integriruemuju-v-odnokristalnye-sistemy-dlja.html</link>
+		<description><![CDATA[ 
+			<p>Реагируя на повышение интереса к автомобильной электронике, включая бортовые системы самоуправляемых автомобилей, компания Renesas Electronics представила новую разработку — схему обработки видеосигнала, рассчитанную на интеграцию в однокристальные системы.
+<p>Особенностью SoC для самоуправляемых автомобилей является необходимость обеспечивать одновременную работу информационно-развлекательной части системы и обрабатывать данные, необходимые для безопасного движения. В частности, речь идет о сигнале с видеокамер. Эти данные необходимо обрабатывать с минимальными задержками, а поступать они могут сразу с нескольких камер, чтобы система обладала полной информацией о дорожной обстановке. 
+</p><div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/1_0_Driverless_Car_of_the_Future_Adlores.jpg" border="0" width="735" height="692" alt="Схема может обрабатывать до 12 каналов Full HD с минимальными задержками при потребляемой мощности всего 197 мВт"> </div>
+<p>Схема, созданная специалистами Renesas, справляется с 12 потоками видео Full HD. При этом задержки не превышают 70 мс, то есть обработка идет в реальном времени. Немаловажно, что схема не задействует ресурсы CPU и GPU, которые могут быть полностью посвящены задаче автономного управления. Прототип, изготовленный Renesas по 16-нанометровой технологии FinFET, потребляет всего 197 мВт. Примером обработки, которую выполняет схема, является декодирование потока от камеры и коррекция искажений, вносимых объективом. Кроме того, доступны другие функции, включая объединение видео и подготовку к выводу на дисплей. По подсчетам разработчика, схема включает семнадцать видеопроцессоров шести разных типов.
+<p>Источник: <a class=small href="http://www.renesas.eu/press/news/2016/news20160202a.jsp" rel="nofollow">Renesas</a></p>							Теги:
+														<a href="http://www.ixbt.com/tag/renesas /" rel="tag">Renesas </a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/specialisty-renesas-electronics-sozdali-shemu-obrabotki-video-integriruemuju-v-odnokristalnye-sistemy-dlja.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>accent@ixbt.com (Accent)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 18:54:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/nintendo-otkazalas-ot-idei-sledit-za-kachestvom-vashego-sna.html</guid>
+		<title>Nintendo отказалась от идеи следить за качеством вашего сна</title>
+		<link>http://www.ixbt.com/news/2016/02/07/nintendo-otkazalas-ot-idei-sledit-za-kachestvom-vashego-sna.html</link>
+		<description><![CDATA[ 
+			  
+ 
+<P>В конце 2014 года появилась информация о том, что японская компания Nintendo может первой начать использовать <A HREF="http://www.ixbt.com/news/hard/index.shtml?18/50/13">дисплеи Free-Form Display</A> производства Sharp для своего устройства отслеживания качества сна пользователя.</P>
+<P>Речь шла не о носимом, а о стационарном устройстве, которое должно было располагаться в вашей спальне и анализировать фазы и качество сна. Устройство должно было собирать различные данные, загружать их на облачные серверы и проводить различные вычисления с последующими прогнозами и рекомендациями.</P>
+<P>Проект находился в разработке около двух лет, он должен был поступить в продажу в первом квартале этого года в рамках программы Quality of Life. Мы говорим об устройстве в прошедшем времени, потому как недавно стало известно о том, что проект заморозили на неопределенный срок. Скорее всего, если верить источникам, данное устройство Nintendo никогда не увидит свет.</P>
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/07.02.jpg" border="0" width="711" height="388" alt="Nintendo отказалась от идеи следить за качеством вашего сна"> </div>
+<P>«Мы все еще верим в то, что можем создать нечто для улучшения общего качества жизни людей, — сказал по этому поводу президент Nintendo Тацуми Кимисима (Tatsumi Kimishima). — И мы не будем прекращать эксперименты в этой области».</P>
+<P>Похоже, компания решила заново расставить приоритеты и сконцентрироваться на новой игровой консоли Nintendo NX, которая должна быть представлена в этом году.</P>
+					<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/nintendo-otkazalas-ot-idei-sledit-za-kachestvom-vashego-sna.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>jin@ixbt.com (Jin)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 14:54:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/roccat-ryos-mk-fx-16.html</guid>
+		<title>Roccat Ryos MK FX: клавиатура с функциональной подсветкой каждой клавиши, имеющей более 16 млн. оттенков</title>
+		<link>http://www.ixbt.com/news/2016/02/07/roccat-ryos-mk-fx-16.html</link>
+		<description><![CDATA[ 
+			<p>Компания Roccat подготовила обновку в модельном ряду клавиатур Ryos. Три года назад Roccat Ryos <a href="http://www.ixbt.com/news/hard/index.shtml?16/42/07">стала первой механической клавиатурой компании</a> и новая Ryos MK FX продолжает эту традицию.</p>
+
+</p><div align="center"><img class="totwitter_thumb" src="http://www.ixbt.com/short/images/2016/Feb/thumb_830x490_gallery-ryos-mk-fx-picture01-v1.jpg" border="0" width="690" height="472" alt="Клавиатура Roccat Ryos MK FX уже поступила в продажу"> </div>
+
+
+<p>Roccat Ryos MK FX получила механические переключатели Cherry MX, каждая клавиша имеет настраиваемую подсветку, поддерживающую до 16,7 млн цветов. С помощью подсветки в процессе игры будет проще найти горячие клавиши, ответственные за активацию макросов (более 500 штук), и других внутриигровых действий. На каждую кнопку можно назначить две команды, переключение между ними происходит после нажатия клавиши Easy-Shift.</p>
+
+</p><div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/thumb_830x490_gallery-ryos-mk-fx-picture03-v1.jpg" border="0" width="720" height="405" alt="Клавиатура Roccat Ryos MK FX уже поступила в продажу"> </div>
+
+
+<p>Утилита Roccat Swarm пригодится для настройки клавиш и подсветки, все богатство настроек сохраняется в флэш-памяти объемом 2 МБ, встроенной в клавиатуру Roccat Ryos MK FX. Управлением занимаются два 32-битных ЦП с архитектурой ARM Cortex. При наличии мыши Roccat часть функций может быть разделена между двумя устройствами. Клавиатура подключается к порту USB 2.0 с частотой опроса 1 кГц армированным кабелем длиной 1,8 м. Второй порт USB 2.0 предназначен для работы встроенного аудиоустройства, обслуживающего разъемы для микрофона и наушников. Клавиатура Roccat Ryos MK FX оценена в $170.</p>							Теги:
+														<a href="http://www.ixbt.com/tag/roccat/" rel="tag">Roccat</a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/roccat-ryos-mk-fx-16.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>iuri@ixbt.com (Юрий Гитин)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 14:47:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/gpu-adreno-530-soc-snapdragon-820.html</guid>
+		<title>Результаты тестирования GPU Adreno 530 в составе SoC Snapdragon 820 показывают его тотальное превосходство над конкурентами</title>
+		<link>http://www.ixbt.com/news/2016/02/07/gpu-adreno-530-soc-snapdragon-820.html</link>
+		<description><![CDATA[ 
+			<p>Мы уже знаем всё о платформе Snapdragon 820. Она пока не появилась на рынке в составе готового устройства, хотя некоторые компании уже успели анонсировать таковые.</p> 
+
+<p>В новой SoC много интересного. Это и новые процессорные ядра Kryo собственной разработки Qualcomm, и новый GPU Adreno 530. Именно результаты тестирования последнего на днях появились в Сети.</p>
+
+<p>Благодаря таблице ниже каждый желающий может произвести сравнение с любым существующим смартфоном во всех тестах пакета GFXBench.</p>
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/6546546_002.png" border="0" width="428" height="600" alt="GPU Adreno 530 является наиболее производительным графическим ядром среди смартфонных SoC"></div>  
+
+<p>Для тестов Manhattan небольшое сравнение привёл один из тематических ресурсов.</p> 
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/434234324.png" border="0" width="634" height="600" alt="GPU Adreno 530 является наиболее производительным графическим ядром среди смартфонных SoC"></div> 
+
+<p>Как видим, производительность Adreno 530 превосходит возможности любого существующего графического ядра среди однокристальных систем, предназначенных для использования в смартфонах. Причём превосходство над конкурентами более чем внушительно. Единственная SoC, способная потягаться в этом вопросе со Snapdragon 820 — Nvidia Tegra X1, но она играет в совершенно иной лиге.</p> 
+
+<p>Правда, возникает вопрос. Куда девать всю эту производительность? Ведь даже те платформы, которые в данных тестах занимают последние места, в реальных игровых приложениях показывают более чем достаточное количество кадров в секунду при максимальных настройках качества.</p> 							Теги:
+														<a href="http://www.ixbt.com/tag/qualcomm/" rel="tag">Qualcomm</a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/gpu-adreno-530-soc-snapdragon-820.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 14:12:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/adata-hd650x-hd710m.html</guid>
+		<title>Защищённые накопители Adata HD650X и HD710M ориентированы на разные категории потребителей</title>
+		<link>http://www.ixbt.com/news/2016/02/07/adata-hd650x-hd710m.html</link>
+		<description><![CDATA[ 
+			<p>Ассортимент компании Adata на днях пополнился сразу двумя новыми внешними накопителями, относящимися к категории защищённых устройств. Речь о моделях HD650X и HD710M.</p>
+
+<p>Обе новинки основаны на HDD формата 2,5 дюйма и могут похвастаться интерфейсом USB 3.0. Первая модель доступна лишь в версии объёмом 2 ТБ, тогда как вторая существует в модификациях объёмом 1 и 2 ТБ. Скоростные показатели в обоих случаях не указываются.</p> 
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/productGallery4362.jpg" border="0" width="620" height="390" alt="Adata представила накопители HD650X и HD710M"></div> 
+
+<p>Модель HD650X ориентирована в первую очередь на владельцев игровых консолей Xbox, так как выполнена в схожем стиле. Если говорить о защите, то в данном случае речь, по сути, лишь о более прочном пластиковом корпусе и наличии резиновой накладки. А вот модель HD710X способна перенести ощутимо более неблагоприятные условия. Данный накопитель не боится пыли и воды (IP68), а также падений с высоты до 1,5 м. Как и у других подобных накопителей компании, кабель крепится непосредственно на корпусе устройства.</p>
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/productGallery4355.jpg" border="0" width="620" height="390" alt="Adata представила накопители HD650X и HD710M"class="totwitter_thumb"></div>  
+
+<p>Габариты HD650X составляют 121 х 81 х 21 мм при массе 201 г. HD710X характеризуется размерами 132 х 99 х 22 мм при массе 220 г. Отдельно стоит отметить, что обе новинки новинками являются лишь условно, так как основаны на моделях HD650 и HD710 с незначительными изменениями.</p>							Теги:
+														<a href="http://www.ixbt.com/tag/adata /" rel="tag">Adata </a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/adata-hd650x-hd710m.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 13:54:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/07/yahoo-15-1.html</guid>
+		<title>Yahoo подтверждает намерение сократить 15% персонала и продать «нестратегические активы» на сумму более 1 млрд долларов</title>
+		<link>http://www.ixbt.com/news/2016/02/07/yahoo-15-1.html</link>
+		<description><![CDATA[ 
+			<p>Как известно из последнего отчета, <a href="http://www.ixbt.com/news/2016/02/06/yahoo-2015-4-748.html" title="Операционные убытки Yahoo в 2015 году составили 4,748 млрд долларов">операционные убытки Yahoo в 2015 году составили 4,748 млрд долларов</a>. Одновременно с отчетом был опубликован «агрессивный стратегический план, направленный на упрощение компании, сужение ее фокуса на сильных местах с целью обеспечить рост, принести доход и повысить эффективность в 2016 году и далее». 
+<p>Наряду с общими целями, такими, как повышение качества рекламного продукта и увеличение количества активных пользователей сервисов Yahoo, названы и конкретные, среди которых можно выделить получение 1,8 млрд долларов дохода в сегменте Mavens (мобильные сервисы, видео, местная реклама и социальные сети) и сокращение операционных расходов более чем на 400 млн долларов. Интересным является пункт «рассмотреть возможность продажи нестратегических активов», что, по оценке компании, может принести более 1 млрд долларов.
+</p><div align="center"><img src="http://www.ixbt.com/short/images/2016/Jan/default_005.jpg" border="0" width="644" height="419" alt="Решению о сокращении предшествовали действия одного из инвесторов, Starboard Value"> </div>
+<p>Согласно новому плану, потребительские продукты Yahoo будут сведены к трем глобальным платформам (Search, Mail и Tumblr) и четырем вертикалям (News, Sports, Finance и Lifestyle). Рекламодателям будет предложено два продукта: Gemini и BrightRoll. Первый включает рекламу в результаты поиска, второй позволяет интегрировать инструменты для продажи и покупки в видео и другие виды рекламы. Основные возможности для развития поискового направления в компании связывают с обслуживанием мобильных пользователей.
+<p>Подтвердилась предварительная информация, что <a href="http://www.ixbt.com/news/2016/02/02/yahoo-sobiraetsja-sokratit-15-sotrudnikov-i-zaryt-neskolko-podrazdelenij.html" title="Yahoo собирается сократить 15% сотрудников и закрыть несколько подразделений">Yahoo собирается сократить 15% сотрудников и закрыть несколько подразделений</a>. Провести сокращение и закрыть офисы компании, расположенные в городах Дубаи, Мехико, Буэнос-Айрес, Мадрид и Милан, планируется до конца текущего квартала. Во всяком случае, к концу года в компании должно работать около 9000 собственных сотрудников и 1000 контрактников. Это примерно на 15% меньше текущего штата и на 42% меньше по сравнению с тем, сколько человек работало в Yahoo в 2012 году. 
+<p>В случае успешной реализации плана в Yahoo рассчитывают вернуться к росту показателей в 2017-2018 году. 
+<p>Источник: <a class=small href="http://info.yahoo.com/press-center/article/yahoo-improve-profitability-accelerate-growth-213000875.html" rel="nofollow">Yahoo</a></p>
+					<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/07/yahoo-15-1.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>accent@ixbt.com (Accent)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 11:25:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/06/apple-snova-objazali-vyplatit-kompanii-virnetx-vnushitelnyj-shtraf-za-narushenie-patentov.html</guid>
+		<title>Apple снова обязали выплатить компании VirnetX внушительный штраф за нарушение патентов</title>
+		<link>http://www.ixbt.com/news/2016/02/06/apple-snova-objazali-vyplatit-kompanii-virnetx-vnushitelnyj-shtraf-za-narushenie-patentov.html</link>
+		<description><![CDATA[ 
+			<p>Компания Apple далеко не всегда является истцом в делах о нарушении патентов. Порой купертинский гигант сам становится целью для подобных исков. К примеру, на днях завершилось дело против VirnetX Holding, которая обвиняла Apple в нарушении патентов.</p>
+
+
+<p>Определённые технологии истца используются купертинцами в программах FaceTime и iMessage. Суд признал факт нарушения патентов и обязал Apple выплатить 625,6 млн долларов штрафа. Представитель Apple высказал разочарование решением суда. По его мнению, такое решение в очередной раз доказывает необходимость патентной реформы в США. Правда, таковая может лишить саму Apple возможности подавать в суд на своих конкурентов.</p>
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/202b47a1566f434d9169dc5e63c73d1c.jpg" border="0" width="640" height="310" alt="Apple нарушила патенты VirnetX"></div> 
+
+<p>К слову, это уже не первый раз, когда Apple проиграла VirnetX. В 2012 году, согласно решению суда, купертинцы должны были выплатить этой компании 368 млн долларов и даже <a href="http://www.ixbt.com/news/hard/index.shtml?16/58/93" title="Суд подтвердил, что Apple должна заплатить 368 млн. долларов компании VirnetX за нарушение патентов">апелляция</a> не исправила положение. </p>							Теги:
+														<a href="http://www.ixbt.com/tag/apple /" rel="tag">Apple </a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/06/apple-snova-objazali-vyplatit-kompanii-virnetx-vnushitelnyj-shtraf-za-narushenie-patentov.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 09:00:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/06/gopro-ostavit-v-prodazhe-vsego-tri-modeli-svoih-kamer-hero4.html</guid>
+		<title>GoPro оставит в продаже всего три модели своих камер Hero4</title>
+		<link>http://www.ixbt.com/news/2016/02/06/gopro-ostavit-v-prodazhe-vsego-tri-modeli-svoih-kamer-hero4.html</link>
+		<description><![CDATA[ 
+			<p>Компания GoPro, несмотря на свои позиции на рынке экшн-камер, продолжает бороться с падением выручки. В частности, согласно последнему финансовому отчёту, за последний квартал 2015 финансового года производитель выручил 436,6 млн долларов, что на 31,1% меньше, чем годом ранее. Правда, по итогам всего года выручка всё-таки увеличилась на 16,2% до 1,62 млрд долларов.</p> 
+
+<p>Четвёртый квартал завершился чистым убытком в размере 34,5 млн долларов, тогда как годом ранее компания получила 122,3 млн долларов чистой прибыли. По итогам года чистая прибыль составила 36,1 млн долларов, но это всё равно на 72,8% меньше, нежели за предыдущий год.</p> 
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/423423.jpg" border="0" width="735" height="490" alt="GoPro отчиталась за 2015 финансовый год"class="totwitter_thumb"></div> 
+
+<p>В связи с ситуацией, GoPro решила значительно сократить линейку своих продуктов. Отныне компания будет предлагать модели Hero4 Black, Hero4 Silver и Hero4 Session. Также производитель обещает новую флагманскую камеру Hero5 позднее в нынешнем году.</p> 
+
+							Теги:
+														<a href="http://www.ixbt.com/tag/gopro/" rel="tag">GoPro</a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/06/gopro-ostavit-v-prodazhe-vsego-tri-modeli-svoih-kamer-hero4.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 08:00:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">http://www.ixbt.com/news/2016/02/06/ocherednoj-finansovyj-kvartal-dlja-sharp-snova-zavershilsja-ubytkami-i-snizheniem-dohodov.html</guid>
+		<title>Очередной финансовый квартал Sharp снова завершился убытками и снижением доходов</title>
+		<link>http://www.ixbt.com/news/2016/02/06/ocherednoj-finansovyj-kvartal-dlja-sharp-snova-zavershilsja-ubytkami-i-snizheniem-dohodov.html</link>
+		<description><![CDATA[ 
+			<p>Компания Sharp, которая в ближайшее время, судя по всему, <a href="http://www.ixbt.com/news/2016/02/05/novym-vladelcem-sharp-verojatnee-vsego-stanet-foxconn.html" title="Новым владельцем Sharp, вероятнее всего, станет Foxconn">согласится на предложение Foxconn</a>, опубликовала результаты третьего квартала 2015 финансового года, который для производителя завершился 31 декабря.</p>
+
+<div align="center"><img src="http://www.ixbt.com/short/images/2016/Feb/headquater-osaka.jpg" border="0" width="735" height="551" alt="Sharp отчиталась за третий квартал 2015 года"></div> 
+
+<p>По итогам этого периода Sharp выручила 5,6 млрд долларов, что на 13% меньше, нежели годом ранее. Операционный убыток составил 32,2 млн долларов, а чистый убыток достиг 209 млн долларов. Для сравнения, годом ранее компания получила операционную прибыль в размере 186,4 млн долларов и чистый убыток в размере 100,8 млн долларов.</p>
+
+<p>Отметим, что практически все подразделения компании показали снижение дохода в годовом выражении. Исключением является подразделение Business Solutions, которое смогло увеличить выручку на 3,3%.</p> 
+							Теги:
+														<a href="http://www.ixbt.com/tag/sharp/" rel="tag">Sharp</a>
+									<br><br>
+		<a href="http://www.ixbt.com/news/2016/02/06/ocherednoj-finansovyj-kvartal-dlja-sharp-snova-zavershilsja-ubytkami-i-snizheniem-dohodov.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category>Новости</category>
+		<pubDate>Sun, 07 Feb 2016 07:30:00 +0300</pubDate>
+	</item>
+	</channel>
+</rss>
+
+
+
+
+
+
