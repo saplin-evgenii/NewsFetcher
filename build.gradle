@@ -22,6 +22,9 @@ ext {
     apacheCommonsConfigurationVersion = '1.10'
     apacheCommonsCollectionsVersion = '4.1'
     romeVersion = '1.0'
+    aspectjVersion = '1.8.7'
+    slf4jVersion = '1.7.13'
+    log4jVersion = '1.2.17'
 }
 
 dependencies {
@@ -32,6 +35,11 @@ dependencies {
     compile group: 'commons-configuration', name: 'commons-configuration', version: apacheCommonsConfigurationVersion
     compile group: 'org.apache.commons', name: 'commons-collections4', version: apacheCommonsCollectionsVersion
     compile group: 'rome', name: 'rome', version: romeVersion
+    compile group: 'org.aspectj', name: 'aspectjrt', version: aspectjVersion
+    compile group: 'org.aspectj', name: 'aspectjweaver', version: aspectjVersion
+    compile group: 'org.slf4j', name: 'slf4j-api', version: slf4jVersion
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: slf4jVersion
+    compile group: 'log4j', name: 'log4j', version: log4jVersion
     testCompile group: 'org.springframework', name: 'spring-test', version: springTestVersion
     testCompile group: 'junit', name: 'junit', version: junitVersion
     testCompile group: 'commons-lang', name: 'commons-lang', version: commonsLangVersion
