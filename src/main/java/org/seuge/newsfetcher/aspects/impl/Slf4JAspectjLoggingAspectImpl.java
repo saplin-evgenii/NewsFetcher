@@ -29,6 +29,7 @@ public class Slf4JAspectjLoggingAspectImpl implements AspectjLoggingAspect {
     private static final String METHOD_OUT_OF = "OUT OF";
     private static final String METHOD_THREW_OUT = "THREW OUT";
     private static final String DETAILS_PARAMS = "params";
+    private static final String DETAILS_PARAM_DEFAULT_NAME = "param";
     private static final String DETAILS_RETURNING = "returning";
     private static final String DETAILS_THROWING = "throwing";
 
@@ -45,6 +46,12 @@ public class Slf4JAspectjLoggingAspectImpl implements AspectjLoggingAspect {
             Signature method = joinPoint.getSignature();
             String[] methodParamNames = ((MethodSignature) method).getParameterNames();
             Object[] methodArgValues = joinPoint.getArgs();
+            if (methodParamNames == null) {
+                methodParamNames = new String[methodArgValues.length];
+                for (int i = 0; i < methodArgValues.length; i++) {
+                    methodParamNames[i] = DETAILS_PARAM_DEFAULT_NAME + i;
+                }
+            }
             StringBuilder methodInfo = new StringBuilder();
             methodInfo.append(METHOD_INTO);
             methodInfo.append(": ");
