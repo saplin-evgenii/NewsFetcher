@@ -5,8 +5,8 @@ import com.sun.syndication.feed.synd.SyndFeed;
 import org.seuge.newsfetcher.entities.RssFeed;
 import org.seuge.newsfetcher.entities.RssFeedItem;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * RssFeedMapper
@@ -23,12 +23,10 @@ public final class RssFeedMapper {
         feed.setOriginalName(syndFeed.getTitle());
         feed.setShortName(syndFeed.getTitle());
         feed.setUrl(syndFeed.getUri());
-        final List<SyndEntry> entries = syndFeed.getEntries();
-        final List<RssFeedItem> items = new ArrayList<>();
-        for (final SyndEntry entry : entries) {
-            final RssFeedItem feedItem = RssFeedItemMapper.asRssFeedItem(entry);
-            items.add(feedItem);
-        }
+        final List<RssFeedItem> items = ((List<SyndEntry>) syndFeed.getEntries())
+            .stream()
+            .map(RssFeedItemMapper::asRssFeedItem)
+            .collect(Collectors.toList());
         feed.setItems(items);
         return feed;
     }

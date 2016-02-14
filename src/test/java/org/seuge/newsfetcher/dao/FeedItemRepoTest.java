@@ -11,9 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static org.junit.Assert.assertEquals;
 
@@ -50,33 +51,34 @@ public class FeedItemRepoTest {
     public void testFindAll() throws Exception {
         final Iterable<FeedItem> itemsAll = feedItemRepo.findAll();
         outer:
-        for (final FeedItem item : items) {
-            for (final FeedItem allItem : itemsAll) {
-                if (item.equals(allItem)) {
-                    continue outer;
+        items.stream()
+            .forEach(item -> {
+                for (final FeedItem allItem : itemsAll) {
+                    if (item.equals(allItem)) {
+                        return;
+                    }
                 }
-            }
-            Assert.fail("One of the test items was not found");
-        }
+                Assert.fail("One of the test items was not found");
+            });
     }
 
     private List<FeedItem> createItems(final int itemsNumber) {
-        List<FeedItem> items = new ArrayList<>();
-        for (int i = 0; i < itemsNumber; i++) {
-            FeedItem item = new FeedItem();
-            item.setId(UNREACHABLE_ID + i);
-            item.setTitle(RandomStringUtils.random(10, true, true));
-            item.setDescription(RandomStringUtils.random(10, true, true));
-            items.add(item);
-            feedItemRepo.save(item);
-        }
+        List<FeedItem> items = IntStream.range(0, itemsNumber)
+            .mapToObj(i -> {
+                FeedItem item = new FeedItem();
+                item.setId(UNREACHABLE_ID + i);
+                item.setTitle(RandomStringUtils.random(10, true, true));
+                item.setDescription(RandomStringUtils.random(10, true, true));
+                feedItemRepo.save(item);
+                return item;
+            })
+            .collect(Collectors.toList());
         return items;
     }
 
     private void deleteItems() {
-        for (FeedItem item : items) {
-            feedItemRepo.delete(item);
-        }
+        items.stream()
+            .forEach(feedItemRepo::delete);
     }
 
 }
