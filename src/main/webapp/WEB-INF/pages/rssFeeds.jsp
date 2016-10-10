@@ -13,7 +13,7 @@
 
     <title>RSS feeds</title>
 </head>
-<body ng-app="myApp">
+    <body ng-app="NewsFetcher">
 
 <div class="container-fluid" ng-controller="RssFeedController as ctrl" ng-init="getAll()">
     <div class="row">

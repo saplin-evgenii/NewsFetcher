@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="<c:url value='/resources/libs/bootstrap/dist/css/bootstrap.css'/>"/>
     <title>News Fetcher</title>
 </head>
-    <body ng-app="myApp">
+    <body ng-app="NewsFetcher">
 
         <feed-form></feed-form>
         <feed></feed>
