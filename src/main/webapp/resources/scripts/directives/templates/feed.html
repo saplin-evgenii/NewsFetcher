@@ -1,0 +1,3 @@
+<div ng-controller="RssFeedController as ctrl">
+    <feed-item ng-repeat="item in (ctrl.rssFeed ? ctrl.rssFeed.items : [])"></feed-item>
+</div>

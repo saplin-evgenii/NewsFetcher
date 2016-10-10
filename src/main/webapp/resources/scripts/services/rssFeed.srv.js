@@ -19,7 +19,11 @@ App.service('RssFeedService', ['$http', '$q', function ($http, $q) {
         get: function (originalNameToGet) {
             return $http.get('api/rssfeeds/' + originalNameToGet).then(
                 function (response) {
-                    return response.data;
+                    if (response.status === 200) {  // OK
+                        return response.data;
+                    } else if (response.status === 404) {  // NOT FOUND
+                        return null;
+                    }
                 },
                 function (errResponse) {
                     console.error('Error while getting RSS feed');
@@ -31,7 +35,11 @@ App.service('RssFeedService', ['$http', '$q', function ($http, $q) {
         getAll: function () {
             return $http.get('api/rssfeeds/').then(
                 function (response) {
-                    return response.data;
+                    if (response.status === 200) {  // OK
+                        return response.data;
+                    } else if (response.status === 404) {  // NOT FOUND
+                        return [];
+                    }
                 },
                 function (errResponse) {
                     console.error('Error while getting RSS feeds');
