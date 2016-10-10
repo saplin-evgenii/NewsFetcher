@@ -12,6 +12,8 @@ App.controller('RssFeedController', ['$scope', 'RssFeedService', function ($scop
         RssFeedService.create(self.originalNameToCreate, self.shortNameToCreate, self.urlToCreate);
     };
 
+    self.originalNameToGet = null;
+
     self.rssFeed = null;
 
     $scope.get = function(name) {

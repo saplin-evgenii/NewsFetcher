@@ -57,7 +57,7 @@
                 <input type="text" ng-model="ctrl.rssFeed.shortName" id="shortNameToGet" disabled="disabled"/>
                 <label for="urlToGet">URL: </label>
                 <input type="text" ng-model="ctrl.rssFeed.url" id="urlToGet" readonly disabled="disabled"/>
-                <input type="button" ng-click="get()" value="Submit"/>
+                <input type="button" ng-click="get(ctrl.originalNameToGet)" value="Submit"/>
             </fieldset>
 
             <fieldset>
