@@ -18,8 +18,8 @@ public final class RssFeedMapper {
     private RssFeedMapper() {
     }
 
-    public static RssFeed<RssFeedItem> asRssFeed(final SyndFeed syndFeed) {
-        final RssFeed<RssFeedItem> feed = new RssFeed<>();
+    public static RssFeed asRssFeed(final SyndFeed syndFeed) {
+        final RssFeed feed = new RssFeed();
         feed.setOriginalName(syndFeed.getTitle());
         feed.setShortName(syndFeed.getTitle());
         feed.setUrl(syndFeed.getUri());

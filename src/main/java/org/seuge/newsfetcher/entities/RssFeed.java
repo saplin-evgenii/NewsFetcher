@@ -5,5 +5,5 @@ package org.seuge.newsfetcher.entities;
  * @author Eugene
  * @since 1.0
  */
-public class RssFeed<FeedItemType extends RssFeedItem> extends Feed<RssFeedItem> {
+public class RssFeed extends Feed<RssFeedItem> {
 }

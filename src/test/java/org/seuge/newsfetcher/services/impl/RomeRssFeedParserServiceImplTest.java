@@ -3,7 +3,6 @@ package org.seuge.newsfetcher.services.impl;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.seuge.newsfetcher.entities.RssFeed;
-import org.seuge.newsfetcher.entities.RssFeedItem;
 import org.seuge.newsfetcher.services.RssFeedParserService;
 import org.seuge.newsfetcher.util.TestConstants;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,7 +27,7 @@ public class RomeRssFeedParserServiceImplTest {
     @Test
     public void testParseFeed() throws Exception {
         final URL url = getClass().getClassLoader().getResource(TestConstants.RSS_FEED_SNIPPET_PATH);
-        final RssFeed<RssFeedItem> rssFeed = rssFeedParserService.parseFeed(url);
+        final RssFeed rssFeed = rssFeedParserService.parseFeed(url);
         assertEquals(TestConstants.RSS_FEED_SNIPPET_TITLE, rssFeed.getOriginalName());
         assertEquals(TestConstants.RSS_FEED_SNIPPET_TITLE, rssFeed.getShortName());
         //TODO: add feed URL match check
