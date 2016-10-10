@@ -12,17 +12,16 @@ App.controller('RssFeedController', ['$scope', 'RssFeedService', function ($scop
         RssFeedService.create(self.originalNameToCreate, self.shortNameToCreate, self.urlToCreate);
     };
 
-    self.originalNameToGet = null;
-
     self.rssFeed = null;
 
-    $scope.get = function () {
-        RssFeedService.get(self.originalNameToGet).then(
+    $scope.get = function(name) {
+        RssFeedService.get(name).then(
             function (data) {
                 self.rssFeed = data;
             },
             function (errResponse) {
-                console.error('Error');
+                console.error('Error response: ' + JSON.stringify(errResponse));
+                self.rssFeed = null;
             }
         );
     };
