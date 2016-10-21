@@ -1,6 +1,6 @@
 package org.seuge.newsfetcher.dao;
 
-import org.seuge.newsfetcher.entities.RssFeed;
+import org.seuge.newsfetcher.model.entities.RssFeed;
 
 /**
  * RSS Feed repository

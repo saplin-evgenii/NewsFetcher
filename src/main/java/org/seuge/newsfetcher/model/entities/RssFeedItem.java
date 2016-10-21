@@ -1,4 +1,4 @@
-package org.seuge.newsfetcher.entities;
+package org.seuge.newsfetcher.model.entities;
 
 /**
  * Rss feed Item

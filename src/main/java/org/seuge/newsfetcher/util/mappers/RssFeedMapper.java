@@ -2,8 +2,8 @@ package org.seuge.newsfetcher.util.mappers;
 
 import com.sun.syndication.feed.synd.SyndEntry;
 import com.sun.syndication.feed.synd.SyndFeed;
-import org.seuge.newsfetcher.entities.RssFeed;
-import org.seuge.newsfetcher.entities.RssFeedItem;
+import org.seuge.newsfetcher.model.entities.RssFeed;
+import org.seuge.newsfetcher.model.entities.RssFeedItem;
 
 import java.util.List;
 import java.util.stream.Collectors;

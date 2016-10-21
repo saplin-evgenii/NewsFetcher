@@ -1,6 +1,6 @@
 package org.seuge.newsfetcher.controllers;
 
-import org.seuge.newsfetcher.entities.RssFeed;
+import org.seuge.newsfetcher.model.entities.RssFeed;
 import org.seuge.newsfetcher.services.RssFeedService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

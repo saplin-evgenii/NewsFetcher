@@ -2,7 +2,7 @@ package org.seuge.newsfetcher.services.impl;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.seuge.newsfetcher.entities.RssFeed;
+import org.seuge.newsfetcher.model.entities.RssFeed;
 import org.seuge.newsfetcher.services.RssFeedParserService;
 import org.seuge.newsfetcher.util.TestConstants;
 import org.springframework.beans.factory.annotation.Autowired;

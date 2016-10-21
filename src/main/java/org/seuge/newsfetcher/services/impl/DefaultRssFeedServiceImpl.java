@@ -2,7 +2,7 @@ package org.seuge.newsfetcher.services.impl;
 
 import org.apache.commons.collections4.IterableUtils;
 import org.seuge.newsfetcher.dao.RssFeedRepo;
-import org.seuge.newsfetcher.entities.RssFeed;
+import org.seuge.newsfetcher.model.entities.RssFeed;
 import org.seuge.newsfetcher.services.RssFeedService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

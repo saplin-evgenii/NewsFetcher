@@ -1,6 +1,6 @@
 package org.seuge.newsfetcher.dao;
 
-import org.seuge.newsfetcher.entities.FeedItem;
+import org.seuge.newsfetcher.model.entities.FeedItem;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

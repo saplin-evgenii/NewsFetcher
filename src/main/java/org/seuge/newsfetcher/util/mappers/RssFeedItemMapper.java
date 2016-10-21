@@ -1,7 +1,7 @@
 package org.seuge.newsfetcher.util.mappers;
 
 import com.sun.syndication.feed.synd.SyndEntry;
-import org.seuge.newsfetcher.entities.RssFeedItem;
+import org.seuge.newsfetcher.model.entities.RssFeedItem;
 
 /**
  * RssFeedMapper

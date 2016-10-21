@@ -1,8 +1,8 @@
 package org.seuge.newsfetcher.dao;
 
 import org.bson.types.ObjectId;
-import org.seuge.newsfetcher.entities.Feed;
-import org.seuge.newsfetcher.entities.RssFeed;
+import org.seuge.newsfetcher.model.entities.Feed;
+import org.seuge.newsfetcher.model.entities.RssFeed;
 import org.springframework.data.repository.CrudRepository;
 
 /**

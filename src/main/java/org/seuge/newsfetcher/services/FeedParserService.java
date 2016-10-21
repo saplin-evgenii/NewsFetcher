@@ -1,7 +1,7 @@
 package org.seuge.newsfetcher.services;
 
-import org.seuge.newsfetcher.entities.Feed;
 import org.seuge.newsfetcher.exceptions.ParsingException;
+import org.seuge.newsfetcher.model.entities.Feed;
 
 import java.net.URL;
 
