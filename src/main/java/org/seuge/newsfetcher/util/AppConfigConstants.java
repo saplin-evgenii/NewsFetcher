@@ -9,7 +9,9 @@ public final class AppConfigConstants {
 
     public static final String CONFIG_FILE_NAME = "app.cfg";
     public static final String SCHEDULED_UPDATE_CRON = "scheduled_update_cron";
+    public static final String SCHEDULED_PROCESSING_CRON = "scheduled_processing_cron";
     public static final String SCHEDULED_UPDATE_DEFAULT = "*/30 * * * * *"; // every 30 minutes
+    public static final String SCHEDULED_PROCESSING_DEFAULT = "*/30 * * * * *"; // every 30 minutes
     public static final String MANDATORY_PROPERTY_NOT_FOUND_MESSAGE =
         "Mandatory property %s was not found in configuration file";
     public static final String WRONG_PROPERTY_FORMAT_MESSAGE = "The format of value %s of property %s is wrong";

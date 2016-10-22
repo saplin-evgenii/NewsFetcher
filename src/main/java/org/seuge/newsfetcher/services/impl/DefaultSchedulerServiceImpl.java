@@ -5,6 +5,7 @@ import org.seuge.newsfetcher.exceptions.LocalStorageException;
 import org.seuge.newsfetcher.exceptions.ParsingException;
 import org.seuge.newsfetcher.exceptions.PersistenceException;
 import org.seuge.newsfetcher.services.AppConfigurerService;
+import org.seuge.newsfetcher.services.FeedStateProcessorService;
 import org.seuge.newsfetcher.services.NewsFetcherService;
 import org.seuge.newsfetcher.util.AppConfigConstants;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,6 +26,25 @@ import java.util.Properties;
 @DependsOn("appConfigurerService")
 public class DefaultSchedulerServiceImpl implements org.seuge.newsfetcher.services.SchedulerService {
 
+    @Autowired
+    private TaskScheduler scheduler;
+    @Autowired
+    private AppConfigurerService appConfigurerService;
+    @Autowired
+    private NewsFetcherService newsFetcherService;
+    @Autowired
+    private FeedStateProcessorService feedStateProcessorService;
+
+    @Override
+    @PostConstruct
+    public void scheduleOverallUpdates() {
+        final Properties configuration = appConfigurerService.getConfiguration();
+        final String updateSchedule = configuration.getProperty(AppConfigConstants.SCHEDULED_UPDATE_CRON);
+        scheduler.schedule(new OverallUpdateTask(), new CronTrigger(updateSchedule));
+        final String processingSchedule = configuration.getProperty(AppConfigConstants.SCHEDULED_PROCESSING_CRON);
+        scheduler.schedule(new OverallProcessingTask(), new CronTrigger(processingSchedule));
+    }
+
     private class OverallUpdateTask implements Runnable {
 
         @Override
@@ -37,19 +57,12 @@ public class DefaultSchedulerServiceImpl implements org.seuge.newsfetcher.servic
         }
     }
 
-    @Autowired
-    private TaskScheduler scheduler;
-    @Autowired
-    private AppConfigurerService appConfigurerService;
-    @Autowired
-    private NewsFetcherService newsFetcherService;
+    private class OverallProcessingTask implements Runnable {
 
-    @Override
-    @PostConstruct
-    public void scheduleOverallUpdates() {
-        final Properties configuration = appConfigurerService.getConfiguration();
-        final String updateSchedule = configuration.getProperty(AppConfigConstants.SCHEDULED_UPDATE_CRON);
-        scheduler.schedule(new OverallUpdateTask(), new CronTrigger(updateSchedule));
+        @Override
+        public void run() {
+            feedStateProcessorService.processFeedsAll();
+        }
     }
 
 }
