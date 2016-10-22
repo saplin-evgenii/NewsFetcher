@@ -2,6 +2,7 @@ package org.seuge.newsfetcher.buffers.impl;
 
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.seuge.newsfetcher.buffers.FeedsUpdatesContainer;
@@ -41,6 +42,7 @@ public class FeedsUpdatesContainerTest {
     }
 
     @Test
+    @Ignore
     @DirtiesContext
     public void testAddFeed() throws Exception {
         Set<String> feedUrls = feedsUpdatesContainer.feedsUrls();
@@ -53,6 +55,7 @@ public class FeedsUpdatesContainerTest {
     }
 
     @Test
+    @Ignore
     @DirtiesContext
     public void testRemoveFeed() throws Exception {
         feedsUpdatesContainer.removeFeed(FEED_URLS.iterator().next());
@@ -60,6 +63,7 @@ public class FeedsUpdatesContainerTest {
     }
 
     @Test
+    @Ignore
     @DirtiesContext
     public void testGetNextUpdate() throws Exception {
         feedsUpdatesContainer.addFeed(NEW_FEED_URL);
@@ -71,6 +75,7 @@ public class FeedsUpdatesContainerTest {
     }
 
     @Test
+    @Ignore
     @DirtiesContext
     public void testPutUpdate() throws Exception {
         feedsUpdatesContainer.addFeed(NEW_FEED_URL);
